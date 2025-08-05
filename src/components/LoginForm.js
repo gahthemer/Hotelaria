@@ -17,5 +17,9 @@ export default function LoginForm(){
     button.textContent = "Entrar";
     formulario.appendChild(button);
 
+    password.style.background =' rgba(182, 175, 231, 0.95)';
+    email.style.background =' rgba(182, 175, 231, 0.95)';
+    button.style.background =' rgba(80, 63, 190, 0.95)';
+
     return formulario;
 }
