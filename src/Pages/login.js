@@ -5,6 +5,10 @@ export default function renderLoginPage(){
     divRoot.innerHTML = '';
     divRoot.style.background =' rgba(93, 82, 197, 0.95)';
 
+    const titulo = document.createElement('h1');
+    titulo.textContent='Faça o login ou crie uma conta';
+    titulo.className = 'titulo';
+
     const container = document.createElement('div');
     container.className = 'card p-4 shadow-lg';
     container.style.width = '100%';
@@ -14,5 +18,6 @@ export default function renderLoginPage(){
 
 
     const formulario = LoginForm();
+    container.appendChild(titulo)
     container.appendChild(formulario);
 }

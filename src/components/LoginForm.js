@@ -1,6 +1,7 @@
 
 export default function LoginForm(){
     const formulario = document.createElement('form');
+    formulario.className='d-flex flex-column';
 
     const email = document.createElement('input');
     email.type = 'emaiol';
@@ -20,6 +21,7 @@ export default function LoginForm(){
     password.style.background =' rgba(182, 175, 231, 0.95)';
     email.style.background =' rgba(182, 175, 231, 0.95)';
     button.style.background =' rgba(80, 63, 190, 0.95)';
+    button.className = 'btn btn-primary';
 
     return formulario;
 }
