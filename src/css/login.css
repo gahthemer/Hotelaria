@@ -2,10 +2,22 @@ input{
     border-style: solid;
     border-radius: 10px;
     margin-bottom: 15px;
+    border:rgb(80, 63, 190, 0.95);;
 }
 
+input:focus{
+    outline:none;
+    border: 2px solid rgb(80, 63, 190, 0.95);
 
-.button-primary:hover{
-    background-color: blue;
+}
+.btn-primary:hover{
+    background-color: rgb(80, 63, 190, 0.95);
+    border: none;
 
+}
+.btn-primary{
+    background-color: rgb(80, 63, 190, 0.95);
+}
+h1{
+    color: aliceblue;
 }
